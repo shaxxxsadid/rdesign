@@ -4,391 +4,218 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <title>Wellcome</title>
-    <script src="https://cdn.jsdelivr.net/npm/kute.js@2.2.4/dist/kute.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
 </head>
 
 <body>
-    <header class="container">
-        <svg class="img" id="visual" viewBox="0 0 1920 961" width="1920" height="961" xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
-            <rect x="0" y="0" width="1920" height="961" fill="transparent"></rect>
-            <path
-                d="M0 623L45.7 619.7C91.3 616.3 182.7 609.7 274.2 616.5C365.7 623.3 457.3 643.7 548.8 648.5C640.3 653.3 731.7 642.7 823 646.8C914.3 651 1005.7 670 1097 683C1188.3 696 1279.7 703 1371.2 684.5C1462.7 666 1554.3 622 1645.8 611.3C1737.3 600.7 1828.7 623.3 1874.3 634.7L1920 646L1920 962L1874.3 962C1828.7 962 1737.3 962 1645.8 962C1554.3 962 1462.7 962 1371.2 962C1279.7 962 1188.3 962 1097 962C1005.7 962 914.3 962 823 962C731.7 962 640.3 962 548.8 962C457.3 962 365.7 962 274.2 962C182.7 962 91.3 962 45.7 962L0 962Z"
-                fill="#4facf7"></path>
-            <path
-                d="M0 641L45.7 653C91.3 665 182.7 689 274.2 694.5C365.7 700 457.3 687 548.8 694.2C640.3 701.3 731.7 728.7 823 730.7C914.3 732.7 1005.7 709.3 1097 701.5C1188.3 693.7 1279.7 701.3 1371.2 708.8C1462.7 716.3 1554.3 723.7 1645.8 722.8C1737.3 722 1828.7 713 1874.3 708.5L1920 704L1920 962L1874.3 962C1828.7 962 1737.3 962 1645.8 962C1554.3 962 1462.7 962 1371.2 962C1279.7 962 1188.3 962 1097 962C1005.7 962 914.3 962 823 962C731.7 962 640.3 962 548.8 962C457.3 962 365.7 962 274.2 962C182.7 962 91.3 962 45.7 962L0 962Z"
-                fill="#7d91ea"></path>
-            <path
-                d="M0 738L45.7 745.3C91.3 752.7 182.7 767.3 274.2 765.2C365.7 763 457.3 744 548.8 740.2C640.3 736.3 731.7 747.7 823 752.3C914.3 757 1005.7 755 1097 761.2C1188.3 767.3 1279.7 781.7 1371.2 782.5C1462.7 783.3 1554.3 770.7 1645.8 773.8C1737.3 777 1828.7 796 1874.3 805.5L1920 815L1920 962L1874.3 962C1828.7 962 1737.3 962 1645.8 962C1554.3 962 1462.7 962 1371.2 962C1279.7 962 1188.3 962 1097 962C1005.7 962 914.3 962 823 962C731.7 962 640.3 962 548.8 962C457.3 962 365.7 962 274.2 962C182.7 962 91.3 962 45.7 962L0 962Z"
-                fill="#a571cd"></path>
-            <path
-                d="M0 816L45.7 811.5C91.3 807 182.7 798 274.2 793.7C365.7 789.3 457.3 789.7 548.8 799.7C640.3 809.7 731.7 829.3 823 839.2C914.3 849 1005.7 849 1097 843.5C1188.3 838 1279.7 827 1371.2 817.8C1462.7 808.7 1554.3 801.3 1645.8 797.2C1737.3 793 1828.7 792 1874.3 791.5L1920 791L1920 962L1874.3 962C1828.7 962 1737.3 962 1645.8 962C1554.3 962 1462.7 962 1371.2 962C1279.7 962 1188.3 962 1097 962C1005.7 962 914.3 962 823 962C731.7 962 640.3 962 548.8 962C457.3 962 365.7 962 274.2 962C182.7 962 91.3 962 45.7 962L0 962Z"
-                fill="#bf4ca0"></path>
-            <path
-                d="M0 851L45.7 861.2C91.3 871.3 182.7 891.7 274.2 897C365.7 902.3 457.3 892.7 548.8 884.5C640.3 876.3 731.7 869.7 823 868.8C914.3 868 1005.7 873 1097 873C1188.3 873 1279.7 868 1371.2 872.2C1462.7 876.3 1554.3 889.7 1645.8 897.2C1737.3 904.7 1828.7 906.3 1874.3 907.2L1920 908L1920 962L1874.3 962C1828.7 962 1737.3 962 1645.8 962C1554.3 962 1462.7 962 1371.2 962C1279.7 962 1188.3 962 1097 962C1005.7 962 914.3 962 823 962C731.7 962 640.3 962 548.8 962C457.3 962 365.7 962 274.2 962C182.7 962 91.3 962 45.7 962L0 962Z"
-                fill="#c62368"></path>
-        </svg>
-        <div class="title">
-            <span class="headerText">
-                Welcome
-            </span>
-            <span class="headerText">
-                to my
-            </span>
-            <span class="headerText">
-                portfolio
-            </span>
+    <div class="container">
+        <div class="social-links">
+            <a target="_blank" href="https://github.com/shaxxxsadid" class="social-link"><i class="fab fa-github"></i></a>
+            <a target="_blank" href="mailto:alexandrdobrynin2003@gmail.com" class="social-link"><i class="fas fa-envelope"></i></i></i></a>
+            <a target="_blank" href="https://t.me/shaxxxsadid" class="social-link"><i class="fab fa-telegram"></i></a>
         </div>
-        <svg class="img img__intro" viewBox="0 0 1920 961" width="1920" height="961" xmlns="http://www.w3.org/2000/svg"
-            xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
-            <g class="center">
-                <path class="morph-path1" fill="#BB004B"
-                    d="M295 -292.3C375.1 -215 427.8 -107.5 417.8 -10C407.8 87.4 335.1 174.9 255 244.4C174.9 313.9 87.4 365.4 15.4 350C-56.6 334.6 -113.3 252.3 -169.1 182.8C-224.9 113.3 -280 56.6 -305.5 -25.5C-331 -107.7 -327.1 -215.4 -271.3 -292.8C-215.4 -370.1 -107.7 -417 -0.1 -416.9C107.5 -416.8 215 -369.6 295 -292.3">
-                </path>
-            </g>
-        </svg>
-    </header>
-    <article class="container main">
-        <div class="content start">
-            <div class="introText">Я, начинающий frontend разработчик. Обладающий навыками верстки, тремя месяцами
-                коммерческой разработки, знаю множество технологий и фреймворков.</div>
-            <div class="backText">About Me</div>
-        </div>
-        <div class="content content1">
-            <div class="itemText">
-                <ul>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                </ul>
-                <span class="text">Pomodoro app</span>
-            </div>
-            <div class="itemImg" style="opacity: 0;">
-                <div class="links">
-                    <img class="upArrow" src="Assets/images/icons8-downward-arrow-100.png" alt="">
-                    <a href="https://shaxxxsadid.github.io/Pomodoro-shaxxx/" target=”_blank” rel=noopener noreferrer””
-                        class="arrowLink">
-                        <img src="Assets/images/linkToSite.svg" alt="">
-                    </a>
-                    <a href="https://github.com/shaxxxsadid/Pomodoro-shaxxx" target=”_blank” rel=noopener noreferrer””
-                        class="arrowLink downLink">
-                        <img src="Assets/images/GitHub.svg" alt="">
-                    </a>
-                    <img class="downArrow" src="Assets/images/downward-arrow-100.png" alt="">
-                </div>
-                <img src="Assets/images/pet1.png" alt="" srcset="">
-            </div>
-        </div>
-        <div class="content content2">
-            <div class="itemImg reverse">
-                <img src="Assets/images/pet2.png" alt="" srcset="">
-                <div class="links">
-                    <img class="upArrow" src="Assets/images/icons8-downward-arrow-100.png" alt="">
-                    <a href="https://shaxxxsadid.github.io/passGenerator-shaxx/" class="arrowLink" target=”_blank”
-                        rel=noopener noreferrer””>
-                        <img src="Assets/images/linkToSite.svg" alt="">
-                    </a>
-                    <a href="https://github.com/shaxxxsadid/passGenerator-shaxx" target=”_blank” rel=noopener
-                        noreferrer”” class="arrowLink downLink">
-                        <img src="Assets/images/GitHub.svg" alt="">
-                    </a>
-                    <img class="downArrow" src="Assets/images/downward-arrow-100.png" alt="">
-                </div>
-            </div>
-            <div class="itemText">
-                <ul>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                </ul>
-                <span class="text">Password generator</span>
-            </div>
 
-        </div>
-        <div class="content">
-            <div class="itemText">
-                <ul>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                </ul>
-                <span class="text">Digital clock</span>
-            </div>
-            <div class="itemImg">
-                <div class="links">
-                    <img class="upArrow" src="Assets/images/icons8-downward-arrow-100.png" alt="">
-                    <a href="https://shaxxxsadid.github.io/digital-clock-shaxxx/" class="arrowLink" target=”_blank”
-                        rel=noopener noreferrer””>
-                        <img src="Assets/images/linkToSiteBlack.svg" alt="">
-                    </a>
-                    <a href="https://github.com/shaxxxsadid/digital-clock-shaxxx" class="arrowLink downLink"
-                        target=”_blank” rel=noopener noreferrer””>
-                        <img src="Assets/images/GitHub.svg" alt="">
-                    </a>
-                    <img class="downArrow" src="Assets/images/downward-arrow-100.png" alt="">
-                </div>
-                <img src="Assets/images/pet3.png" alt="" srcset="">
-            </div>
-        </div>
-        <div class="content content3">
-            <div class="itemImg reverse">
-                <img class="wideImg" src="Assets/images/pet4.png" alt="">
-                <div class="links">
-                    <img class="upArrow" src="Assets/images/icons8-downward-arrow-100.png" alt="">
-                    <a href="https://shaxxxsadid.github.io/quiz-shaxxx/" target=”_blank” rel=noopener noreferrer””
-                        class="arrowLink">
-                        <img src="Assets/images/linkToSite.svg" alt="">
-                    </a>
-                    <a href="https://github.com/shaxxxsadid/quiz-shaxxx" target=”_blank” rel=noopener noreferrer””
-                        class="arrowLink downLink">
-                        <img src="Assets/images/GitHub.svg" alt="">
-                    </a>
-                    <img class="downArrow" src="Assets/images/downward-arrow-100.png" alt="">
+        <div class="slider">
+            <div class="background-animation"></div>
+            <!-- First slide - Intro -->
+            <div class="slide current">
+                <div class="content content-intro">
+                    <h1 class="ml3">Welcome to my Portfolio</h1>
+                    <p class="ml4">Frontend Development</p>
                 </div>
             </div>
-            <div class="itemText">
-                <ul>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                </ul>
-                <span class="text">Quiz app</span>
-            </div>
-        </div>
-        <div class="content content4">
-            <div class="itemText">
-                <ul>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                </ul>
-                <span class="text">telegram AI Bot</span>
-            </div>
-            <div class="itemImg">
-                <div class="links">
-                    <a href="https://github.com/shaxxxsadid/tgBotAi" target=”_blank” rel=noopener noreferrer””
-                        title="GitHub Tg AI" class="arrowLink downLink">
-                        <img src="Assets/images/GitHub.svg" alt="">
-                    </a>
-                    <img class="downArrow" src="Assets/images/downward-arrow-100.png" alt="">
+            <!-- Add this after the intro slide and before project slides -->
+            <div class="slide">
+                <div class="content">
+                    <h1>About Me</h1>
+                    <div class="about-container">
+                        <div class="about-info">
+                            <h2>Hello, I'm Alexander</h2>
+                            <p class="about-description">
+                                A passionate Full Stack Developer with a love for creating elegant solutions.
+                                I specialize in building responsive web applications using modern technologies.
+                            </p>
+                            <div class="skills">
+                                <div class="skill-category">
+                                    <h3>Frontend</h3>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">React/NextJS</span>
+                                        <span class="skill-tag">JavaScript</span>
+                                        <span class="skill-tag">TypeScript</span>
+                                        <span class="skill-tag">HTML/CSS</span>
+                                        <span class="skill-tag">Redux/MobX</span>
+                                    </div>
+                                </div>
+                                <div class="skill-category">
+                                    <h3>Backend</h3>
+                                    <div class="skill-tags">
+                                        <span class="skill-tag">Node.js</span>
+                                        <span class="skill-tag">Express</span>
+                                        <span class="skill-tag">MongoDB</span>
+                                        <span class="skill-tag">SQL/NoSQL</span>
+                                        <span class="skill-tag">PostgreSQL</span>
+                                        <span class="skill-tag">Microsoft SQL</span>
+                                        <span class="skill-tag">MySQL</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="about-image-container">
+                            <div class="profile-frame">
+                                <img src="your-photo.jpg" alt="Profile Picture" class="profile-image">
+                            </div>
+                        </div>
+                    </div>
                 </div>
-                <img style="border-radius: 50px;" src="Assets/images/pet5.png" alt="" srcset="">
             </div>
-        </div>
-        <div class="content content5">
-            <div class="itemImg reverse">
-                <img class="wideImg" src="Assets/images/pet6.png" alt="" srcset="">
-                <div class="links">
-                    <img class="upArrow" src="Assets/images/icons8-downward-arrow-100.png" alt="">
-                    <a href="https://github.com/shaxxxsadid/chess-react-shaxxx" target=”_blank” rel=noopener
-                        noreferrer”” class="arrowLink downLink">
-                        <img src="Assets/images/GitHub.svg" alt="">
-                    </a>
+            <!-- Project slides -->
+            <div class="slide">
+                <div class="content">
+                    <h1>Pomodoro App</h1>
+                    <div class="project-container">
+                        <div class="project-info">
+                            <h2>Pomodoro Timer</h2>
+                            <p class="project-description">A productivity application that helps users manage their work
+                                intervals using the Pomodoro Technique. Built with React and styled-components.</p>
+                            <div class="links">
+                                <a target="_blank" href="https://shaxxxsadid.github.io/Pomodoro-shaxxx/" class="btn">Live</a>
+                                <a target="_blank" href="https://github.com/shaxxxsadid/Pomodoro-shaxxx" class="btn">Code</a>
+                            </div>
+                        </div>
+                        <div class="project-image-container">
+                            <img src="/Assets/images/pet1.png" alt="Project Screenshot" class="project-image">
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="itemText">
-                <ul>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                </ul>
-                <span class="text">Chess app</span>
-            </div>
-        </div>
-        <div class="content content6">
-            <div class="itemText">
-                <ul>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                    <li class="itemParticle"></li>
-                </ul>
-                <span class="text">fitness club app</span>
-            </div>
-            <div class="itemImg">
-                <div class="links">
-                    <a href="https://github.com/shaxxxsadid/Fitness-club-shaxxx" target=”_blank” rel=noopener
-                        noreferrer”” title="Fitness club GitHub" class="arrowLink downLink">
-                        <img src="Assets/images/GitHub.svg" alt="">
-                    </a>
-                    <img class="downArrow" src="Assets/images/downward-arrow-100.png" alt="">
+            <div class="slide">
+                <div class="content">
+                    <h1>Password generator</h1>
+                    <div class="project-container">
+                        <div class="project-info">
+                            <h2>Password generator</h2>
+                            <p class="project-description">A productivity application that helps users manage their work
+                                intervals using the Pomodoro Technique. Built with React and styled-components.</p>
+                            <div class="links">
+                                <a target="_blank" href="https://shaxxxsadid.github.io/passGenerator-shaxx/" class="btn">Live</a>
+                                <a target="_blank" href="https://github.com/shaxxxsadid/passGenerator-shaxx" class="btn">Code</a>
+                            </div>
+                        </div>
+                        <div class="project-image-container">
+                            <img src="/Assets/images/pet2.png" alt="Project Screenshot" class="project-image">
+                        </div>
+                    </div>
                 </div>
-                <img class="wideImg" src="Assets/images/pet7.jpg" alt="" srcset="">
+            </div>
+            <div class="slide">
+                <div class="content">
+                    <h1>Digital clock</h1>
+                    <div class="project-container">
+                        <div class="project-info">
+                            <h2>Digital clock</h2>
+                            <p class="project-description">A productivity application that helps users manage their work
+                                intervals using the Pomodoro Technique. Built with React and styled-components.</p>
+                            <div class="links">
+                                <a target="_blank" href="https://shaxxxsadid.github.io/digital-clock-shaxxx/" class="btn">Live</a>
+                                <a target="_blank" href="https://github.com/shaxxxsadid/digital-clock-shaxxx" class="btn">Code</a>
+                            </div>
+                        </div>
+                        <div class="project-image-container">
+                            <img src="/Assets/images/pet3.png" alt="Project Screenshot" class="project-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="content">
+                    <h1>Quiz app</h1>
+                    <div class="project-container">
+                        <div class="project-info">
+                            <h2>Quiz app</h2>
+                            <p class="project-description">A productivity application that helps users manage their work
+                                intervals using the Pomodoro Technique. Built with React and styled-components.</p>
+                            <div class="links">
+                                <a target="_blank" href="https://shaxxxsadid.github.io/quiz-shaxxx/" class="btn">Live</a>
+                                <a target="_blank" href="https://github.com/shaxxxsadid/quiz-shaxxx" class="btn">Code</a>
+                            </div>
+                        </div>
+                        <div class="project-image-container">
+                            <img src="/Assets/images/pet4.png" alt="Project Screenshot" class="project-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="content">
+                    <h1>telegram AI Bot</h1>
+                    <div class="project-container">
+                        <div class="project-info">
+                            <h2>telegram AI Bot</h2>
+                            <p class="project-description">A productivity application that helps users manage their work
+                                intervals using the Pomodoro Technique. Built with React and styled-components.</p>
+                            <div class="links">
+                                <a target="_blank" href="https://github.com/shaxxxsadid/tgBotAi" class="btn">Code</a>
+                            </div>
+                        </div>
+                        <div class="project-image-container">
+                            <img src="/Assets/images/pet5.png" alt="Project Screenshot" class="project-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="content">
+                    <h1>Chess app</h1>
+                    <div class="project-container">
+                        <div class="project-info">
+                            <h2>Chess app</h2>
+                            <p class="project-description">A productivity application that helps users manage their work
+                                intervals using the Pomodoro Technique. Built with React and styled-components.</p>
+                            <div class="links">
+                                <a target="_blank" href="https://github.com/shaxxxsadid/chess-react-shaxxx" class="btn">Code</a>
+                            </div>
+                        </div>
+                        <div class="project-image-container">
+                            <img src="/Assets/images/pet6.png" alt="Project Screenshot" class="project-image">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="slide">
+                <div class="content">
+                    <h1>Fitness club app</h1>
+                    <div class="project-container">
+                        <div class="project-info">
+                            <h2>Fitness club app</h2>
+                            <p class="project-description">A productivity application that helps users manage their work
+                                intervals using the Pomodoro Technique. Built with React and styled-components.</p>
+                            <div class="links">
+                                <a target="_blank" href="https://github.com/shaxxxsadid/Fitness-club-shaxxx" class="btn">Code</a>
+                            </div>
+                        </div>
+                        <div class="project-image-container">
+                            <img src="/Assets/images/pet7.jpg" alt="Project Screenshot" class="project-image">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </article>
-    <footer class="footer">
-        <a href="https://github.com/shaxxxsadid" target=”_blank” rel=noopener noreferrer”” title="GitHub Repos"
-            style="z-index: 1;">
-            <img class="footerImage" src="Assets/images/GitHub.svg" alt="">
-        </a>
-        <a href="https://t.me/shaxxxsadid" target=”_blank” rel=noopener noreferrer”” title="Telegram contact"
-            style="z-index: 1;">
-            <img class="footerImage" src="Assets/images/telegram-app.svg" alt="">
-        </a>
-        <a href="mailto:alexandrdobrynin2003@gmail.com" target=”_blank” rel=noopener noreferrer”” title="Email contact"
-            style="z-index: 1;">
-            <img class="footerImage" src="Assets/images/email.svg" alt="">
-        </a>
-        <div class="backText">Contacts</div>
-    </footer>
+        <div class="buttons">
+            <button id="prev"><i class="fas fa-arrow-left"></i></button>
+            <button id="next"><i class="fas fa-arrow-right"></i></button>
+        </div>
+    </div>
+
+    <div class="preview-overlay" id="imagePreview">
+        <span class="close-btn">&times;</span>
+        <img class="preview-content" id="previewImage">
+    </div>
+
+    <script defer src="animations.js"></script>
+    <script defer src="script.js"></script>
 </body>
-<script type="module" defer>
-    import anime from 'https://cdn.jsdelivr.net/npm/animejs@3.2.1/lib/anime.es.js';
-    let shapes = [
-        {
-            d: "M278.1 -292.1C351.1 -205.1 394.5 -102.5 408.2 13.7C421.9 129.9 405.7 259.7 332.7 359.8C259.7 460 129.9 530.3 4.6 525.7C-120.7 521.1 -241.4 441.6 -330.2 341.5C-419 241.4 -476 120.7 -459.9 16.1C-443.8 -88.5 -354.6 -177 -265.8 -264C-177 -351 -88.5 -436.5 7 -443.5C102.5 -450.5 205.1 -379.1 278.1 -292.1"
-        },
-        {
-            d: "M292.4 -279C392.5 -192.3 496.6 -96.2 505.5 9C514.5 114.1 428.4 228.2 328.3 290.7C228.2 353.3 114.1 364.3 -9.8 374.1C-133.6 383.9 -267.3 392.4 -340.3 329.9C-413.3 267.3 -425.6 133.6 -411.1 14.5C-396.7 -104.7 -355.3 -209.3 -282.3 -296C-209.3 -382.6 -104.7 -451.3 -4.2 -447.1C96.2 -442.8 192.3 -365.7 292.4 -279"
-        },
-        {
-            d: "M353.5 -356.6C423.8 -283.1 422.9 -141.6 421.4 -1.5C419.9 138.6 417.9 277.2 347.5 339.8C277.2 402.3 138.6 388.9 9 379.9C-120.7 370.9 -241.4 366.5 -323.5 303.9C-405.7 241.4 -449.3 120.7 -450.3 -0.9C-451.2 -122.6 -409.5 -245.1 -327.3 -318.6C-245.1 -392.1 -122.6 -416.6 9.5 -426.1C141.6 -435.6 283.1 -430.1 353.5 -356.6"
-        },
-        {
-            d: "M347.1 -311.2C447.2 -247 523.9 -123.5 507.9 -16C491.9 91.5 383.1 182.9 283 245.5C182.9 308 91.5 341.7 -4.1 345.8C-99.7 350 -199.4 324.5 -298.4 262C-397.4 199.4 -495.7 99.7 -509.4 -13.7C-523 -127 -452.1 -254.1 -353.1 -318.3C-254.1 -382.4 -127 -383.7 -1.8 -381.9C123.5 -380.2 247 -375.3 347.1 -311.2"
-        },
-
-    ]
-
-    const allContent = document.querySelectorAll('.itemImg');
-    const allText = document.querySelectorAll('.itemText');
-    const imageFooter = document.querySelectorAll('.footerImage');
-    let countAnim = []
-    for (let i = 0; i < allContent.length; i++) {
-        countAnim.push(true)
-    }
-
-    let morph1 = anime({
-        targets: '.morph-path1',
-        d: [
-            { value: shapes[0].d },
-            { value: shapes[1].d },
-            { value: shapes[2].d },
-            { value: shapes[3].d },
-        ],
-        duration: 5000,
-        direction: 'alternate',
-        autoplay: true,
-        easing: 'spring(1, 80, 5, 0)',
-        elasticity: 200,
-        loop: true
-    });
-
-    const translateXMorph = (target, x, opacity) => {
-        anime({
-            targets: target,
-            translateX: [...x],
-            opacity: [...opacity],
-            easing: 'spring(1, 50, 7, 0)',
-            autoplay: true,
-            duration: 1000
-        });
-    }
-
-    const translateXMorph1 = (target, x, opacity) => {
-        anime({
-            targets: target,
-            translateX: [...x],
-            opacity: [...opacity],
-            easing: 'spring(1, 50, 7, 0)',
-            autoplay: true,
-            delay: 600
-        });
-    }
-
-    const translateRandomMorph = (x, y, target, opacity) => {
-        anime({
-            targets: target,
-            translateX: function () { return [0, anime.random(...x)]; },
-            translateY: function () {
-                const randY = anime.random(...y)
-                if (randY > -100 && randY <= 0)
-                    return [0, randY - 100];
-                if (randY < 100 && randY >= 0)
-                    return [0, randY + 100];
-                return [0, randY];
-            },
-            scale: function () { return anime.random(0.5, 1); },
-            rotate: function () { return anime.random(-360, 360); },
-            opacity: [...opacity],
-            borderRadius: function () { return ['50%', anime.random(10, 35) + '%']; },
-            duration: function () { return anime.random(1200, 1800); },
-            delay: function () { return anime.random(0, 400); },
-            easing: 'spring(1, 50, 8, 0)',
-            autoplay: true
-        });
-    }
-
-    const morphContentAnimate = (i) => {
-        if (countAnim[i]) {
-            translateXMorph(allContent[i], i % 2 === 0 ? [550, -250] : [-550, 250], [0, 1])
-            translateRandomMorph([150, 650], [-350, 350], allText[i].querySelectorAll('ul .itemParticle'), [0, 1])
-            if (i !== 0) {
-                translateXMorph(allContent[i - 1], (i - 1) % 2 === 0 ? [-250, 550] : [250, -550], [1, 0])
-                translateRandomMorph([0, 0], [0, 0], allText[i - 1].querySelectorAll('ul .itemParticle'), [1, 0])
-            }
-            if (i !== 6) {
-                translateXMorph(allContent[i + 1], (i - 1) % 2 === 0 ? [-250, 550] : [250, -550], [1, 0])
-                translateRandomMorph([0, 0], [0, 0], allText[i + 1].querySelectorAll('ul .itemParticle'), [1, 0])
-            }
-            countAnim[i] = false;
-        }
-        countAnim.forEach((item, index) => {
-            if (i !== index)
-                countAnim[index] = true
-        })
-    }
-
-    window.addEventListener('scroll', e => {
-        const scroll = Math.round(window.scrollY)
-        const height = window.outerHeight
-        document.documentElement.style.setProperty('--scrollTop', `${scroll}px`)
-        switch (true) {
-            case scroll >= height + 200 && scroll <= height * 2:
-                morphContentAnimate(0)
-                break;
-            case scroll >= height * 2 && scroll <= height * 3:
-                morphContentAnimate(1)
-                break;
-            case scroll >= height * 3 && scroll < height * 4:
-                morphContentAnimate(2)
-                break;
-            case scroll >= height * 4 && scroll <= height * 5:
-                morphContentAnimate(3)
-                break;
-            case scroll >= height * 5 && scroll <= height * 6:
-                morphContentAnimate(4)
-                break;
-            case scroll >= height * 6 && scroll <= height * 7:
-                morphContentAnimate(5)
-                break;
-            case scroll >= height * 7 && scroll <= height * 8:
-                morphContentAnimate(6)
-                break;
-            case scroll >= height * 8:
-
-                break;
-        }
-    })
-
-</script>
 
 </html>
